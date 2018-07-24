@@ -25,3 +25,13 @@ let u: undefined = undefined;
 
 let isNew: boolean = null;
 let myName: string = undefined;
+
+// Array type
+
+let list1: number[] = [1, 2, 3];
+let list2: Array<number> = [1, 2, 3];
+
+
+// Tuple type
+
+let person1: [string, number] = ['Chris', 22];

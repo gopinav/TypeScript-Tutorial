@@ -18,3 +18,8 @@ var n = null;
 var u = undefined;
 var isNew = null;
 var myName = undefined;
+// Array type
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3];
+// Tuple type
+var person1 = ['Chris', 22];
