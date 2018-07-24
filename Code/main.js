@@ -23,3 +23,16 @@ var list1 = [1, 2, 3];
 var list2 = [1, 2, 3];
 // Tuple type
 var person1 = ['Chris', 22];
+// Enum type
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+var c = Color.Green;
+console.log(c);
+// Any type
+var randomValue = 10;
+randomValue = true;
+randomValue = 'Vishwas';

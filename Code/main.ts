@@ -35,3 +35,13 @@ let list2: Array<number> = [1, 2, 3];
 // Tuple type
 
 let person1: [string, number] = ['Chris', 22];
+
+// Enum type
+enum Color {Red, Green, Blue}
+let c: Color = Color.Green;
+console.log(c);
+
+// Any type
+let randomValue: any = 10;
+randomValue = true;
+randomValue = 'Vishwas';
