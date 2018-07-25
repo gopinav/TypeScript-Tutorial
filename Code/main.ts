@@ -53,3 +53,11 @@ a = true;
 
 let b = 10;
 
+// Union Types
+let multiType: number | boolean;
+multiType = 20;
+multiType = true;
+
+let anyType: any;
+anyType = 20;
+anyType = true;

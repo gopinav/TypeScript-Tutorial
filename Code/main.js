@@ -41,3 +41,10 @@ var a;
 a = 10;
 a = true;
 var b = 10;
+// Union Types
+var multiType;
+multiType = 20;
+multiType = true;
+var anyType;
+anyType = 20;
+anyType = true;
