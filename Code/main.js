@@ -36,3 +36,8 @@ console.log(c);
 var randomValue = 10;
 randomValue = true;
 randomValue = 'Vishwas';
+// Type inference
+var a;
+a = 10;
+a = true;
+var b = 10;

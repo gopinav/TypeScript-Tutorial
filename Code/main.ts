@@ -45,3 +45,11 @@ console.log(c);
 let randomValue: any = 10;
 randomValue = true;
 randomValue = 'Vishwas';
+
+// Type inference
+let a;
+a = 10;
+a = true;
+
+let b = 10;
+
