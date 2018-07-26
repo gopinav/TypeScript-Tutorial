@@ -61,3 +61,12 @@ multiType = true;
 let anyType: any;
 anyType = 20;
 anyType = true;
+
+// Functions
+
+function add(num1: number, num2?: number): number {
+  return num1 + num2;
+}
+
+add(5, 10);
+add(10);
