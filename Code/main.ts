@@ -46,6 +46,12 @@ let randomValue: any = 10;
 randomValue = true;
 randomValue = 'Vishwas';
 
+// Unknown type
+let myVariable: any = 10;
+console.log(myVariable.name.firstName);
+myVariable();
+myVariable.toUpperCase();
+
 // Type inference
 let a;
 a = 10;
