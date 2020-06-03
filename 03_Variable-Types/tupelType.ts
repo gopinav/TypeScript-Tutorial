@@ -1,0 +1,1 @@
+let favAnimal: [string,number] = ["Panda",1];
