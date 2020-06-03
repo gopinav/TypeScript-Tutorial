@@ -1,4 +1,4 @@
-TODO: Cthis ontinue in leisure time, more folder to come!
+TODO: Continue in leisure time, more folder to come!
 - c0deN
 > README ain't 100% done as well.
 
