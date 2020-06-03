@@ -1,3 +1,7 @@
+TODO: Cthis ontinue in leisure time, more folder to come!
+- c0deN
+> README ain't 100% done as well.
+
 # [Hello World Environment Setup](/01_HelloWorld-Environment/)
 ```typescript
 // TypeScript (TS)
