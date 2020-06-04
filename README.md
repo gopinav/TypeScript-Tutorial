@@ -12,7 +12,7 @@ console.log(message);
 ```
 
 ### Compile to JavaScript
-> **`tsc main.ts`**
+<code class=" language-bash">$ <span>tsc</span> main.ts</code></pre>
 ```javascript
 // JavaScript (JS)
 var message = 'Hello TS';
@@ -31,7 +31,7 @@ let message = 'Hello TS'
 console.log(message)
 ```
 Compile again:
->`tsc main.ts`
+<code class=" language-bash">$ <span>tsc</span> main.ts</code></pre>
 ```javascript
 // JS
 "use strict";
@@ -41,7 +41,7 @@ console.log(message);
 ```
 
 ### Useful workflow addition, automatically compile TS to JS on continuously
-> **`tsc main --watch`**
+<code class=" language-bash">$ <span>tsc</span> main --watch</code></pre>
 
 # [Variable Declarations](/02_Variable-Declarations/)
 Unlike traditional JavaScript, TypeScript encourages the use of `let` and `const` keywords for variable declarations.
@@ -102,7 +102,7 @@ I am learning TypeScript`;
 // Multiple lines work that easy
 ```
 Simply test it with deno for example:
-> **`deno run ./03_Variable-Types/templateStrings.ts `**
+<code class=" language-bash">$ <span>deno</span> run ./03_Variable-Types/templateStrings.ts</code></pre>
 ```
 Hello. 
 I am learning TypeScript
@@ -153,7 +153,7 @@ let's log this value to see it in terminal
 ```typescript
 console.log(c)
 ```
-> **`deno run ./03_Variable-Types/enumType.ts`**
+<code class=" language-bash">$ <span>deno</span> run ./03_Variable-Types/enumType.ts</code></pre>
 ```
 1
 ```
@@ -162,8 +162,8 @@ console.log(c)
 ```typescript
 enum Color {Red = 5,Green,Blue};
 ```
-if you run 
-> **`deno run ./03_Variable-Types/enumType.ts`**
+Run again
+<code class=" language-bash">$ <span>deno</span> run./03_Variable-Types/enumType.ts</code></pre>
 - You can see that Green has the value of 6 because it **`autoincrements`**
 
 - Enums are code friendly later on
