@@ -1,7 +1,8 @@
 TODO: Continue in leisure time, more folder to come!
+> This document is not the final version yet
+Feel free to edit :)
 - c0deN
-> README ain't 100% done as well.
-[Based on Codevolutions Tutorial](https://www.youtube.com/watch?v=WBPrJSw7yQAhttps://www.youtube.com/watch?v=WBPrJSw7yQA)
+[Based on Codevolution's Tutorial](https://www.youtube.com/watch?v=WBPrJSw7yQAhttps://www.youtube.com/watch?v=WBPrJSw7yQA)
 
 # [Hello World Environment Setup](/01_HelloWorld-Environment/)
 ```typescript
@@ -11,7 +12,7 @@ console.log(message);
 ```
 
 ### Compile to JavaScript
->### `tsc main.ts`
+> **`tsc main.ts`**
 ```javascript
 // JavaScript (JS)
 var message = 'Hello TS';
@@ -40,7 +41,7 @@ console.log(message);
 ```
 
 ### Useful workflow addition, automatically compile TS to JS on continuously
->`tsc main --watch`
+> **`tsc main --watch`**
 
 # [Variable Declarations](/02_Variable-Declarations/)
 Unlike traditional JavaScript, TypeScript encourages the use of `let` and `const` keywords for variable declarations.
@@ -90,8 +91,8 @@ let text: string = 'Just text';
 
 ## But TypeScript also offers something called `Template-Strings` which can hold multiple lines
 
-To embed values simply use
-> `${varname}`
+#### To embed values simply use
+> **${varname}**
 ```typescript
 // They also can provide embedded expressions
 // You will have to use backticks  `
@@ -101,7 +102,7 @@ I am learning TypeScript`;
 // Multiple lines work that easy
 ```
 Simply test it with deno for example:
-> `deno run ./03_Variable-Types/templateStrings.ts `
+> **`deno run ./03_Variable-Types/templateStrings.ts `**
 ```
 Hello. 
 I am learning TypeScript
@@ -152,7 +153,7 @@ let's log this value to see it in terminal
 ```typescript
 console.log(c)
 ```
-> `deno run ./03_Variable-Types/enumType.ts`
+> **`deno run ./03_Variable-Types/enumType.ts`**
 ```
 1
 ```
@@ -162,8 +163,8 @@ console.log(c)
 enum Color {Red = 5,Green,Blue};
 ```
 if you run 
-> `deno run ./03_Variable-Types/enumType.ts`
-- You can see that Green has the value of 6 because its `ìota`
+> **`deno run ./03_Variable-Types/enumType.ts`**
+- You can see that Green has the value of 6 because it **`autoincrements`**
 
 - Enums are code friendly later on
 
@@ -178,7 +179,7 @@ randomValue = "Damn, no errors :)"
 ```
 - Really helpful when migrate from JavaScript to TypeScript
 
-## ISSUE: It won't call any errors yet because of any
+## ISSUE: It won't call any errors yet because of `any`
 ```typescript
 let myVar: any = 10;
 console.log(myVar.name);
